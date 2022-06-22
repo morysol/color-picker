@@ -1,11 +1,10 @@
-// import ColorPicker from "../ColorPicker/ColorPicker";
-import s from "./InfoPanel.module.css";
+import s from './InfoPanel.module.css';
 
-function InfoPanel({ color }) {
+function InfoPanel({ label, value }) {
     return (
         <div className={s.panel}>
-            <p className={s.label}>{color.colorLabel}</p>
-            <p className={s.value}>{color.colorHexValue}</p>
+            <p className={s.label}>{label}</p>
+            <p className={s.value}>{value}</p>
         </div>
     );
 }
