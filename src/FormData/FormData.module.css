@@ -1,0 +1,19 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  height: 320px;
+
+  width: 30%;
+  margin: 100px auto;
+  background-color: #eee;
+  border: none;
+  border-radius: 15px;
+}
+
+.form input {
+  width: 240px;
+  align-items: center;
+}
